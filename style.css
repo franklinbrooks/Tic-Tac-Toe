@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  border: 5px solid black;
+}
+
+caption {
+  padding: 2%;
+}
+
+#message {
+  text-align: center;
+  color: black;
+  background-color: white;
+  width: 20%;
+  height: 50%;
+}
+
+table {
+  width: 35%;
+}
+
+tr {
+  width: 100%;
+}
+
+td {
+  background-color: #4CAF50;
+  color: white;
+  width: 25%;
+  height: 100%;
+  border-radius: 18px;
+}
+
+/* hack from http://www.mademyday.de/css-height-equals-width-with-pure-css.html */
+
+.box {
+  padding: 1% 0;
+  position: relative;
+  width: 20%;   /* desired width */
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.box:before{
+  content: "";
+  display: block;
+  padding-top: 100%;  /* initial ratio of 1:1*/
+}
+
+.content {
+  padding: 2% 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 30px;
+  text-align: center;
+  line-height: 150%;
+  vertical-align: center;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heart {
+  color: #ff0000;
+  text-decoration: none;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+.heart:hover {
+
+
+}
+
+ a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.invisible {
+  display: block;
+  opacity: 0;
+  margin: 0 auto;
+}
+
+.visible {
+  display: block;
+  margin: 0 auto;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+@media screen and (min-width: 600px) {
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 2em;
+    text-align: center;
+    line-height: 150%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 100px;
+    text-align: center;
+    line-height: 150%;
+  }
+}
+
+
+
