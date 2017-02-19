@@ -2,6 +2,8 @@
 
 ### Screen Shot of Game  
   ![Tic Tac Toe Game](https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/584a367bc4d9cc23bb84ff10/screenshot.png)
+  
+### Link to live site: ![Tic Tac Toe Game](https://www.bitballoon.com/sites/trader-rim-30351)
 
 ### Technologies Used
 - HTML
